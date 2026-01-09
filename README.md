@@ -1,4 +1,4 @@
-# examples
+# DuckieBot Examples
 
 Here we we have example of the follwoing functionalitiy for the DuckieBot:
 
