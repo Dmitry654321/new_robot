@@ -1,6 +1,6 @@
 # DuckieBot Examples
 
-Here we we have example of the following functionalitiy for the DuckieBot:
+Here we have examples of the following functionalitiy for the DuckieBot:
 1) A ROS workspace (src) with blinker package inside. The functionality of this is that is makes the DuckieBot LEDs blink in some colored order. This works by publishing to the /led_pattern topic for the respective vehicle.
 2) Same as above but the package is image_saver whose functionality is that it saves an image from the camera every 30 calls. This works by subscribing to the /image/compressed topic for the respective vehicle.
 
