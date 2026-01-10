@@ -20,6 +20,7 @@ class ImageSaver(Node):
             self.counter += 1
             return
         with open(self.output_dir + str(self.counter) + '.jpg', 'wb') as f:
+            self.get_logger().info(f'Saving image {self.counter}')
             f.write(msg.data)
         self.counter += 1
 
