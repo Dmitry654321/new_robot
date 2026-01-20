@@ -47,6 +47,10 @@ Here are the steps to do to clone:
     2. Run ```make build```
     3. Run ```make run```
 3. #### Docker Container Within Remote Server
+    0. Export environment variables:
+       ```bash
+       export VEHICLE_NAME=duckie06
+       ```
     1. Launch the necessary ros2 packages using
        ```bash
        ros2 run package node
